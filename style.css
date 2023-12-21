@@ -23,9 +23,14 @@ a {
     text-decoration: none;
     padding: 10px;
 }
+
+/* sticky to make something fixed or scrollable */
+
 #home {
-    height: 600px;
-    background-image: gray;
+    padding: 500px; /* got rid of height and added padding for vertical alignment of text*/
+    text-align: center;
+    vertical-align: middle;
+    background-image: url("../images/ninja.jpg");
 }
 #about {
     height: 600px;
