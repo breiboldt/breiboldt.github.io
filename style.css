@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #home {
     height: 600px;
     background-image: -moz-radial-gradient();
