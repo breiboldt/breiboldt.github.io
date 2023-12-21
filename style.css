@@ -1,7 +1,13 @@
 html {
     scroll-behavior: smooth;
 }
-
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    padding: 10px;
+}
 #home {
     height: 600px;
     background-image: -moz-radial-gradient();
