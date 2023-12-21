@@ -3,26 +3,29 @@ html {
 }
 
 .main {
-    margin-top: 15px;
+    margin-top: 30 px;
 }
-
 #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     position: fixed;
     width: 100%;
     top: 0;
     background-color: transparent;
-    padding: 10px;
+    padding: 0px;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-a.head {
-    color: white;
+a {
+    color: black;
+    position: relative;
     text-decoration: none;
     padding: 10px;
 }
 #home {
     height: 600px;
-    background-image: -moz-radial-gradient();
+    background-image: gray;
 }
 #about {
     height: 600px;
