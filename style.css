@@ -1,11 +1,22 @@
 html {
     scroll-behavior: smooth;
 }
+
+main {
+    margin-top: 100px;
+}
+
 #header {
     position: fixed;
     width: 100%;
     top: 0;
     background-color: transparent;
+    padding: 10px;
+    z-index: 1000;
+}
+#header a {
+    color: white;
+    text-decoration: none;
     padding: 10px;
 }
 #home {
