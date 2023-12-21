@@ -1,0 +1,20 @@
+#home {
+    height: 600px;
+    background-image: -moz-radial-gradient();
+}
+#about {
+    height: 600px;
+    background-color: blue;
+}
+#experience {
+    height: 600px;
+    background-color: red;
+}
+#projects {
+    height: 600px;
+    background-color: green;
+}
+#education {
+    height: 600px;
+    background-color: pink;
+}
