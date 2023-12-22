@@ -3,7 +3,7 @@ html {
 }
 
 .main {
-    margin-top: 30 px;
+    margin-top: 0px;
 }
 #header {
     display: flex;
@@ -12,7 +12,7 @@ html {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.30);
     padding: 0px;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -27,17 +27,17 @@ a {
 /* sticky to make something fixed or scrollable */
 
 .icon {
-    height: 10%;
-    width: 10%;
+    height: 13%;
+    width: 13%;
     border-radius: 50%;
 }
 
 #composite {
-    height: 100px;
+    height: 150px;
     border-radius: 50%;
 }
 #home {
-    padding: 500px; /* got rid of height and added padding for vertical alignment of text*/
+    padding: 300px; /* got rid of height and added padding for vertical alignment of text*/
     text-align: center;
     vertical-align: middle;
     background-image: linear-gradient(to bottom right, lightblue, rgb(252, 200, 104));
