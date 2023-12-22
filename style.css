@@ -26,17 +26,19 @@ a {
 
 /* sticky to make something fixed or scrollable */
 
-#composite {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+.icon {
+    height: 10%;
 }
 
+#composite {
+    height: 100px;
+    border-radius: 50%;
+}
 #home {
     padding: 500px; /* got rid of height and added padding for vertical alignment of text*/
     text-align: center;
     vertical-align: middle;
-    background-image: url("../images/ninja.jpg");
+    background-image: linear-gradient(to bottom right, lightblue, rgb(252, 200, 104));
 }
 #about {
     height: 600px;
