@@ -2,8 +2,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    width: 100%;
+    margin-left: 0px;
+}
+
 .main {
-    margin-top: 0px;
+    margin-top: -20px;
 }
 #header {
     display: flex;
@@ -27,17 +32,18 @@ a {
 /* sticky to make something fixed or scrollable */
 
 .icon {
-    height: 13%;
-    width: 13%;
+    height: 8%;
+    width: 8%;
     border-radius: 50%;
 }
 
 #composite {
-    height: 150px;
+    height: 100%;
+    width: 30%;
     border-radius: 50%;
 }
 #home {
-    padding: 300px; /* got rid of height and added padding for vertical alignment of text*/
+    padding: 150px; /* got rid of height and added padding for vertical alignment of text*/
     text-align: center;
     vertical-align: middle;
     background-image: linear-gradient(to bottom right, lightblue, rgb(252, 200, 104));
