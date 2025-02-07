@@ -1,66 +1,147 @@
+/* General Styles */
 html {
     scroll-behavior: smooth;
-}
-
-body {
+  }
+  
+  body {
     width: 100%;
-    margin-left: 0px;
-}
-
-.main {
-    margin-top: -20px;
-}
-#header {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.30);
-    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px 0;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-a {
-    color: black;
-    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header a {
+    color: #333;
     text-decoration: none;
-    padding: 10px;
-}
-
-/* sticky to make something fixed or scrollable */
-
-.icon {
-    height: 8%;
-    width: 8%;
-    border-radius: 50%;
-}
-
-#composite {
-    height: 100%;
-    width: 30%;
-    border-radius: 50%;
-}
-#home {
-    padding: 150px; /* got rid of height and added padding for vertical alignment of text*/
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    color: #0073e6;
+  }
+  
+  /* Main Sections */
+  .main {
+    padding: 80px 20px;
     text-align: center;
-    vertical-align: middle;
+  }
+  
+  #home {
+    padding: 150px 20px;
     background-image: linear-gradient(to bottom right, lightblue, rgb(252, 200, 104));
-}
-#about {
-    height: 600px;
-    background-color: blue;
-}
-#experience {
-    height: 600px;
-    background-color: red;
-}
-#projects {
-    height: 600px;
-    background-color: green;
-}
-#education {
-    height: 600px;
-    background-color: pink;
-}
+  }
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  #profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+  }
+  
+  .home-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .home-text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #f9f9f9;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #about-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #0073e6;
+  }
+  
+  .about-content p {
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Resume Section */
+  #resume {
+    background-color: #f9f9f9;
+  }
+  
+  #resume-upload {
+    margin: 20px 0;
+  }
+  
+  #resume-link {
+    display: block;
+    margin-top: 10px;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  #resume-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }

@@ -1,41 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Braydon Reiboldt - Software Developer</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
-    <div class="head" id="header">
+    <div class="header" id="header">
       <a href="#home">HOME</a>
       <a href="#about">ABOUT</a>
       <a href="#experience">EXPERIENCE</a>
       <a href="#projects">PROJECTS</a>
       <a href="#education">EDUCATION</a>
+      <a href="#resume">RESUME</a>
     </div>
 
     <div class="main" id="home">
-      <img id="composite" alt="profile" src="../images/Compositepicture.png"></img>
-      <p>Braydon Reiboldt</p>
-      <p>Software Developer</p>
-      <a href="https://www.linkedin.com/in/braydon-reiboldt-51a078228/"> <img class="icon" title="LinkedIn" alt="LinkedIn" src="../images/linkedIn.jpg"></img></a>
-      <a href="mailto:braydon.reiboldt@gmail.com"> <img class="icon" title="Email" alt="Email" src="../images/emailIcon.jpg"></img></a>
+      <div class="home-content">
+        <img id="profile-image" alt="profile" src="../images/Compositepicture.png" />
+        <div class="home-text">
+          <h1>Braydon Reiboldt</h1>
+          <p>Software Developer</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/braydon-reiboldt-51a078228/">
+              <img class="icon" title="LinkedIn" alt="LinkedIn" src="../images/linkedIn.jpg" />
+            </a>
+            <a href="mailto:braydon.reiboldt@gmail.com">
+              <img class="icon" title="Email" alt="Email" src="../images/emailIcon.jpg" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="main" id="about">
       <h2>About Me</h2>
+      <div class="about-content">
+        <img id="about-image" alt="profile" src="../images/Compositepicture.png" />
+        <p>
+          Hi, I'm Braydon Reiboldt, a passionate software developer with experience in building web applications and solving complex problems. I enjoy working with modern technologies and continuously learning new skills to improve my craft.
+        </p>
+      </div>
     </div>
+
     <div class="main" id="experience">
       <h2>Experience</h2>
+      <p>Details about your professional experience will go here.</p>
     </div>
+
     <div class="main" id="projects">
       <h2>My Projects</h2>
+      <p>Details about your projects will go here.</p>
     </div>
+
     <div class="main" id="education">
       <h2>Education</h2>
+      <p>Details about your education will go here.</p>
+    </div>
+
+    <div class="main" id="resume">
+      <h2>Resume</h2>
+      <p>Upload and view my resume:</p>
+      <input type="file" id="resume-upload" accept=".pdf" />
+      <a id="resume-link" href="#" target="_blank">View Resume</a>
     </div>
 
     <footer>
-      <p>Connect with me on<b><a href="https://www.linkedin.com/in/braydon-reiboldt-51a078228/">LinkedIn</a></b>or email me at<b><a href="mailto:braydon.reiboldt@gmail.com">braydon.reiboldt@gmail.com</a></b>.</p>
+      <p>
+        Connect with me on <b><a href="https://www.linkedin.com/in/braydon-reiboldt-51a078228/">LinkedIn</a></b> or email me at
+        <b><a href="mailto:braydon.reiboldt@gmail.com">braydon.reiboldt@gmail.com</a></b>.
+      </p>
     </footer>
-  </body>
 
+    <script src="app.js"></script>
+  </body>
 </html>
